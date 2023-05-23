@@ -1,0 +1,23 @@
+﻿<Window x:Class="Pr3_003.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr3_003"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="Crimson" Height="300" Width="300">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Введите 1 число:"/>
+            <TextBox x:Name="number1TextBox"/>
+            <TextBlock Text="Введите 2 число:"/>
+            <TextBox x:Name="number2TextBox"/>
+            <TextBlock Text="Введите 3 число:"/>
+            <TextBox x:Name="number3TextBox"/>
+            <TextBlock Text="Введите 4 число:"/>
+            <TextBox x:Name="number4TextBox"/>
+            <Button Click="Button_Click" Content="OK"/>
+            <TextBlock x:Name="txtOtv" Height="113"/>
+        </StackPanel>
+    </Grid>
+</Window>
